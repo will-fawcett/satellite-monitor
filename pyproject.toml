@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.11"
 authors = [
-    { name = "Trillium" }
+    { name = "London Data Monster" }
 ]
 keywords = [
     "satellite",
@@ -72,10 +72,10 @@ dev = [
 satellite-monitor = "satellite_monitor.cli.main:main"
 
 [project.urls]
-Homepage = "https://github.com/trillium/satellite-monitor"
-Documentation = "https://github.com/trillium/satellite-monitor#readme"
-Repository = "https://github.com/trillium/satellite-monitor"
-Issues = "https://github.com/trillium/satellite-monitor/issues"
+Homepage = "https://github.com/will-fawcett/satellite-monitor"
+Documentation = "https://github.com/will-fawcett/satellite-monitor#readme"
+Repository = "https://github.com/will-fawcett/satellite-monitor"
+Issues = "https://github.com/will-fawcett/satellite-monitor/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/satellite_monitor"]

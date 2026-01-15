@@ -25,7 +25,7 @@ pip install satellite-monitor
 ### From Source
 
 ```bash
-git clone https://github.com/trillium/satellite-monitor.git
+git clone https://github.com/will-fawcett/satellite-monitor.git
 cd satellite-monitor
 pip install -e .
 ```
