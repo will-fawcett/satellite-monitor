@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "satellite-monitor"
-version = "0.1.0"
+version = "1.0.0"
 description = "Multi-provider satellite imagery monitoring and weather-aware recommendation tool"
 readme = "README.md"
 license = "MIT"
@@ -23,7 +23,7 @@ keywords = [
     "optical-imagery",
 ]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",

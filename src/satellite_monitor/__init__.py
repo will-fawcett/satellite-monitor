@@ -29,7 +29,7 @@ CLI Usage:
     satellite-monitor setup
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 # Core types
 from satellite_monitor.core.location import (

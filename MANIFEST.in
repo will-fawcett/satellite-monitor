@@ -1,0 +1,20 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Include examples
+recursive-include examples *.py
+
+# Include package data
+recursive-include src/satellite_monitor py.typed
+
+# Exclude development and test files
+exclude .gitignore
+exclude .env
+exclude .env.example
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod]
+recursive-exclude * .DS_Store
+recursive-exclude .git *
+recursive-exclude .github *
